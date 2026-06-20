@@ -44,3 +44,7 @@ Contingut
 [Dia 5](./dia5/):
 * SOLID ISP i LSP
 * Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application
+
+
+> [Design Principles and Design Patterns](http://objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
+> _Robert C. Martin_
