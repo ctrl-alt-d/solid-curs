@@ -1,0 +1,259 @@
+title: "Coneixent-nos una mica millor"
+questions:
+  - title: Amb quantes pantalles estàs fent el curs?
+    image: https://i.imgur.com/cu6YEWg.jpeg
+    image_alt: Setup desproporcionat, en comptes de PC tot un rack i tres pantalles
+    options:
+      - "Amb la del portàtil d'ensenyament"
+      - "Una pantalla de > 21 polzades"
+      - "Dues pantalles"
+      - "Dues o més pantalles"
+    correct_answer: 0
+    explanation: |
+      T'aniria bé disposar de dues pantalles, una per fer el codi i l'altre per seguir el curs, però no és imprescindible.
+      Si només tens una pantalla, pots utilitzar la funció de dividir la pantalla del sistema operatiu o canviar entre finestres o escriptoris virtuals.
+
+  - title: Amb quin **sistema operatiu** fas el curs? o quin se li assembla més?
+    image: https://i.imgur.com/SgsmNtm.jpeg
+    image_alt: Samarreta de Tac OS, un sistema operatiu fictici amb logo de Taco.
+    options:
+      - "Amb la del portàtil d'ensenyament"
+      - "Windows"
+      - "GNU Linux"
+      - "MacOS"
+    correct_answer: 0
+    explanation: |
+      El programari que farem servir és multiplataforma, així que no importa el sistema operatiu que utilitzis.
+      El portàtil d'ensenyament no et deixa executar instal·ladors, però podem posar els binaris i versions portables.
+
+
+  - title: "És un **contracte** que defineix **mètodes** i propietats a implementar"
+    options:
+      - "Interfície (Interface)"
+      - "Classe abstracta (Abstract class)"
+      - "Classe final (Sealed class)"
+      - "Registre (Record)"
+    correct_answer: 1
+    explanation: |
+      En C#, una interfície defineix un contracte.
+
+      ```c#
+      public interface IUser
+      {
+          void SetPassword(string password);
+          int Edat { get; set; }
+      }
+      ```
+      Característiques d'una interfície:
+      - No es pot instanciar una interfície.
+      - Diverses classes poden complir una mateixa interfície.
+      - Sí que pot complir d'altres interfícies.
+
+  - title: Per què t'has decantat (principalement) per aquest curs?
+    options:
+      - "Tots els de IA ja estaven plens"
+      - "Pel dotnet C#"
+      - "M'agrada el Clean Code i l'arquitectura de software"
+      - "Per què el professor em va venir a demanar que m'apuntés"
+    correct_answer: 0
+    explanation: |
+      Un curs de 25h de programació pot ser molt dur. Hi haurà estones de programació intensa, i altres de més teòriques. És important que t'agradi el tema per mantenir la motivació.
+      El dotnet i C# són tecnologies molt potents i versàtils, però el més important és que t'agradi la programació i l'arquitectura de software.
+
+
+  - title: "Una classe abstracta **NO** pot"
+    options:
+      - "Heretar d'altres classes"
+      - "Implementar interfícies"
+      - "Instanciar-se amb `new()`"
+      - "Tenir mètodes abstractes i implementats"
+    correct_answer: 3
+    explanation: |
+      Una classe abstracta no es pot instanciar directament.
+
+      ```c#
+      public abstract class UserBase : IUser
+      {
+          public abstract void SetPassword(string password);
+          public int Edat { get; set; }
+      }
+      ```
+      Característiques d'una classe abstracta:
+      - Pot heretar d'una altra classe, sigui abstracta o no.
+      - Pot implementar interfícies.
+      - Pot tenir mètodes abstractes i mètodes no abstractes.
+      - No es pot instanciar directament, però sí que es pot instanciar una classe que hereti d'ella.
+
+
+  - title: Des de quina província et connectes?
+    options:
+      - "Barcelona"
+      - "Girona"
+      - "Tarragona"
+      - "Lleida"
+    correct_answer: 0
+    explanation: |
+      Entenc que el curs s'ha ofert a tota Catalunya.
+
+  - title: "Una classe en C# pot implementar"
+    options:
+      - "Només una interfície"
+      - "Múltiples interfícies"
+      - "Cap interfície"
+      - "Només interfícies abstractes"
+    correct_answer: 2
+    explanation: |
+      En C#, una classe pot implementar tantes interfícies com calgui.
+
+      ```c#
+      public class AdminUser : IUser, IAuditable, INotify
+      {
+      }
+      ```
+
+      Això permet combinar responsabilitats a través de contractes sense herència múltiple de classes.
+
+
+  - title: |
+      Tabuladors o espais?
+
+      ```c#
+      public class User
+      {
+      <TAB>public string Name { get; set; }
+      }
+      ```
+    options:
+      - "Tabuladors"
+      - "Espais"
+      - "Amb ceba"
+      - "Sense ceba"
+    correct_answer: 0
+    explanation: |
+      La convenció és usar "four-character indents", quan l'IDE detecta un tabulador, el converteix en 4 espais.
+
+
+
+  - title: "Una classe en C#"
+    options:
+      - "Pot heretar de múltiples classes"
+      - "No pot heretar de cap classe"
+      - "Com a màxim pot heretar d'una classe"
+      - "Només pot heretar de classes abstractes"
+    correct_answer: 3
+    explanation: |
+      C# no permet herència múltiple de classes: una classe derivada només pot tenir una classe base.
+
+      ```c#
+      public class Manager : Employee
+      {
+      }
+      ```
+
+      Per combinar més comportaments, s'utilitzen interfícies.
+
+
+  - title: "Quan diem que una classe 'té un' (has-a), normalment parlem de"
+    options:
+      - "Herència"
+      - "Composició o agregació"
+      - "Polimorfisme"
+      - "Encapsulació"
+    correct_answer: 2
+    explanation: |
+      La relació "té un" indica que una classe conté o utilitza una altra classe com a part del seu estat o comportament.
+
+      ```c#
+      public class Order
+      {
+          public Customer Customer { get; set; }
+      }
+      ```
+
+      `Order` té un `Customer`: això és composició/agregació, no herència.
+
+
+  - title: "Quan diem que una classe 'és un' (is-a), normalment parlem de"
+    options:
+      - "Composició"
+      - "Associació"
+      - "Herència"
+      - "Sobrecàrrega"
+    correct_answer: 3
+    explanation: |
+      La relació "és un" descriu especialització: la classe derivada és un tipus de la classe base.
+
+      ```c#
+      public class Cat : Animal
+      {
+      }
+      ```
+
+      Un `Cat` és un `Animal`, per això parlem d'herència.
+
+
+  - title: La meva experiència amb C#
+    options:
+      - "He treballat amb C# abans, però amb .NET Framework"
+      - "No he treballat amb C#"
+      - "Conec C#, he fet projectes petits i he seguit cursos online"
+      - "Porto molts anys treballant amb C# i .NET"
+    correct_answer: 0
+    explanation: |
+      En aquest curs no es requerien coneixements previs de C#, és un curs per discutir arquitectura de software i clean code, no un curs de C# bàsic.
+      Farem una mica de repàs de crear una solució amb projectes.
+
+
+
+  - title: "Una propietat o mètode que es pot sobreescriure en una classe derivada es declara com"
+    options:
+      - "sealed"
+      - "override"
+      - "virtual"
+      - "static"
+    correct_answer: 3
+    explanation: |
+      A la classe base, un membre que volem permetre sobreescriure es marca com `virtual`.
+
+      ```c#
+      public class Animal
+      {
+          public virtual void Speak() { }
+      }
+      ```
+
+      A la classe derivada, es fa servir `override` per canviar-ne la implementació.
+
+
+  - title: Arquitectura del software i clean code
+    options:
+      - "M'encanta clean code, m'he llegit tots els llibres de Robert C. Martin i de Martin Fowler"
+      - "Tinc coneixements bàsics i m'agrada el tema"
+      - "No conec clean code, però crec que és important per fer bon software"
+      - "El més important és que el codi funcioni, no m'importa tant com sigui d'ordenat o net"
+    correct_answer: 0
+    explanation: |
+      Aquest curs se centra en l'arquitectura de software i el clean code, no parlarem d'algorismes,
+      parlarem de com organitzar el codi per a que sigui mantenible i de qualitat.
+
+
+  - title: "Una propietat o mètode que cal sobreescriure obligatòriament en una classe derivada es declara com"
+    options:
+      - "virtual"
+      - "abstract"
+      - "sealed"
+      - "readonly"
+    correct_answer: 2
+    explanation: |
+      Un membre `abstract` no té implementació a la classe base i obliga les classes derivades a implementar-lo.
+
+      ```c#
+      public abstract class Animal
+      {
+          public abstract void Speak();
+      }
+      ```
+
+      Qualsevol classe no abstracta que hereti de `Animal` haurà de definir `Speak()`.
+
+

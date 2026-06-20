@@ -1,0 +1,563 @@
+title: "En quin any?"
+randomize_question_order: true
+randomize_answer_order: false
+questions:
+  - title: En quin any Winston Royce presenta el "Desenvolupament en cascada" (Waterfall)?
+    image: https://upload.wikimedia.org/wikipedia/commons/b/b3/1970_Royce_Managing_the_Development_of_Large_Software_Systems_Fig4.PNG?_=20230815070100
+    image_alt: Imatge que representa el model en cascada, amb les diferents fases del desenvolupament de programari representades com a cascades d'aigua.
+    options:
+      - "1961"
+      - "1970"
+      - "1979"
+      - "1988"
+    correct_answer: 2
+    explanation: |
+      "Managing the Development of Large Software Systems" és un article escrit per Winston Royce el 1970.
+      En aquest article, Royce va descriure el model en cascada com un procés de desenvolupament de programari seqüencial,
+      on cada fase del desenvolupament es completa abans de passar a la següent.
+      Tot i que l'article no va ser escrit amb la intenció de promoure el model en cascada com a millor pràctica,
+      va ser adoptat àmpliament com a estàndard en la indústria del programari durant molts anys.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:1970_Royce_Managing_the_Development_of_Large_Software_Systems_Fig4.PNG
+
+  - title: En quin any Intel va llançar el microprocessador 4004?
+    image: https://upload.wikimedia.org/wikipedia/commons/5/55/Intel_C4004.jpg
+    image_alt: Fotografia d'un microprocessador Intel 4004.
+    options:
+      - "1962"
+      - "1971"
+      - "1980"
+      - "1989"
+    correct_answer: 2
+    explanation: |
+      L'Intel 4004 es va llançar l'any 1971 i és considerat el primer microprocessador comercial d'un sol xip.
+      Aquest avenç va permetre concentrar capacitat de càlcul en maquinari molt més compacte i assequible.
+      És una fita clau en l'inici de la microinformàtica moderna.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Intel_C4004.jpg
+
+  - title: En quin any Intel va llançar el microprocessador 8080?
+    image: https://upload.wikimedia.org/wikipedia/commons/a/ac/Intel_8080_open-closed.jpg
+    image_alt: Fotografia d'un microprocessador Intel 8080 obert i tancat.
+    options:
+      - "1956"
+      - "1965"
+      - "1974"
+      - "1983"
+    correct_answer: 3
+    explanation: |
+      L'Intel 8080 es va llançar el 1974 com una evolució clara respecte dels primers xips.
+      Va tenir molta adopció en kits i sistemes de microordinadors de l'època.
+      Per això es considera una peça central en l'expansió primerenca dels ordinadors personals.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Intel_8080_open-closed.jpg
+
+  - title: En quin any Apple va llançar l'Apple II?
+    image: https://upload.wikimedia.org/wikipedia/commons/c/ca/Apple_II-IMG_7064.jpg
+    image_alt: Fotografia d'un ordinador Apple II amb teclat i carcassa originals.
+    options:
+      - "1959"
+      - "1968"
+      - "1977"
+      - "1986"
+    correct_answer: 3
+    explanation: |
+      L'Apple II es va presentar el 1977 i es va convertir en un referent de la informàtica de consum.
+      Va facilitar que més persones poguessin tenir un ordinador útil a casa i a centres educatius.
+      El seu impacte va consolidar la idea d'ordinador personal com a producte massiu.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Apple_II-IMG_7064.jpg
+
+  - title: En quin any, segons aquesta cronologia, Alan Kay va inventar Smalltalk?
+    image: https://upload.wikimedia.org/wikipedia/commons/b/bf/Smalltalk_Balloon.svg
+    image_alt: Logotip de Smalltalk representat amb un globus.
+    options:
+      - "1971"
+      - "1980"
+      - "1989"
+      - "1998"
+    correct_answer: 2
+    explanation: |
+      Segons la cronologia d'aquest qüestionari, Smalltalk apareix l'any 1980.
+      Smalltalk és fonamental perquè impulsa el paradigma orientat a objectes de manera pràctica.
+      Molts conceptes de disseny de software modern beuen directament d'aquesta línia de treball.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Smalltalk_Balloon.svg
+
+  - title: En quin any IBM va llançar l'IBM PC?
+    image: https://upload.wikimedia.org/wikipedia/commons/7/72/IBM_Personal_Computer_badge_recreation.svg
+    image_alt: Recreació de la placa identificativa de l'IBM Personal Computer.
+    options:
+      - "1972"
+      - "1981"
+      - "1990"
+      - "1999"
+    correct_answer: 2
+    explanation: |
+      L'IBM PC es va llançar el 1981 i va accelerar la normalització del mercat dels ordinadors personals.
+      Va establir una base de compatibilitat que després van seguir molts altres fabricants.
+      Aquesta estandardització va ser clau per a l'adopció massiva del PC.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg
+
+  - title: En quin any el Departament de Defensa dels EUA va adoptar oficialment el model en cascada (DOD-STD-2167A)?
+    image: https://upload.wikimedia.org/wikipedia/commons/2/2e/Seal_of_the_United_States_Department_of_Defense.svg
+    image_alt: Segell oficial del Departament de Defensa dels Estats Units.
+    options:
+      - "1967"
+      - "1976"
+      - "1985"
+      - "1994"
+    correct_answer: 3
+    explanation: |
+      L'adopció oficial del model en cascada dins aquest estàndard va ser el 1985.
+      Això va reforçar l'ús de processos seqüencials en projectes grans i amb alta formalització.
+      Durant anys, aquesta decisió va influir fortament en pràctiques de desenvolupament de software.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Defense.svg
+
+  - title: En quin any Stroustrup va publicar "El lenguaje de programación C++"?
+    image: https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg
+    image_alt: Retrat de Bjarne Stroustrup, creador de C++.
+    options:
+      - "1968"
+      - "1977"
+      - "1986"
+      - "1995"
+    correct_answer: 3
+    explanation: |
+      El llibre de Bjarne Stroustrup es va publicar el 1986 i va ajudar a consolidar C++.
+      Va ordenar i explicar el llenguatge en un moment clau de la seva expansió professional.
+      És una obra de referència en programació de sistemes i software de rendiment.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Bjarne-stroustrup_(cropped).jpg
+
+  - title: En quin any James Gosling va inventar Java (anomenat Oak en aquell moment)?
+    image: https://upload.wikimedia.org/wikipedia/commons/4/4e/Duke-squeak-transparent-anti-aliased.png
+    image_alt: Imatge de Duke, la mascota associada al llenguatge Java.
+    options:
+      - "1973"
+      - "1982"
+      - "1991"
+      - "2000"
+    correct_answer: 3
+    explanation: |
+      Segons la cronologia, Java (Oak inicialment) apareix l'any 1991.
+      La proposta destacava per la portabilitat entre plataformes i per un model robust d'execució.
+      Més tard, Java esdevindria una tecnologia central en entorns empresarials.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Duke-squeak-transparent-anti-aliased.png
+
+  - title: En quin any Guido van Rossum va llançar Python?
+    image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
+    image_alt: Logotip de Python format per dues serps entrellaçades.
+    options:
+      - "1982"
+      - "1991"
+      - "2000"
+      - "2009"
+    correct_answer: 2
+    explanation: |
+      Python es va llançar el 1991 i des del principi va apostar per la llegibilitat.
+      Aquesta filosofia de simplicitat i claredat el va fer molt valuós per aprendre i per producció.
+      Avui és clau en automatització, web, dades i intel.ligència artificial.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+
+  - title: En quin any es va publicar "Patrones de diseño" del grup GoF (Gamma, Helm, Johnson, Vlissides)?
+    image: https://upload.wikimedia.org/wikipedia/commons/a/a6/Module-software-design-pattern-english.svg
+    image_alt: Diagrama que representa un patró de disseny de software basat en mòduls.
+    options:
+      - "1977"
+      - "1986"
+      - "1995"
+      - "2004"
+    correct_answer: 3
+    explanation: |
+      El llibre de patrons del grup GoF es va publicar el 1995.
+      Va establir un vocabulari compartit per parlar de solucions de disseny reutilitzables.
+      Encara avui és una base important per a arquitectura i mantenibilitat de codi.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Module-software-design-pattern-english.svg
+
+  - title: En quin any Brendan Eich va crear JavaScript?
+    image: https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png
+    image_alt: Logotip groc de JavaScript amb les lletres JS.
+    options:
+      - "1986"
+      - "1995"
+      - "2004"
+      - "2013"
+    correct_answer: 2
+    explanation: |
+      JavaScript es va crear el 1995 per aportar interactivitat als navegadors web.
+      Amb el pas del temps va evolucionar fins a convertir-se en un ecosistema complet.
+      Actualment és essencial tant al frontend com al backend.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png
+
+  - title: En quin any Sun Microsystems va llançar Java?
+    image: https://upload.wikimedia.org/wikipedia/commons/8/80/Duke_wave_with_shadow.png
+    image_alt: Imatge de Duke, la mascota de Java, saludant.
+    options:
+      - "1978"
+      - "1987"
+      - "1996"
+      - "2005"
+    correct_answer: 3
+    explanation: |
+      Java es va llançar comercialment el 1996 per Sun Microsystems.
+      La promesa d'executar codi en múltiples plataformes va impulsar la seva adopció.
+      Va marcar una etapa molt rellevant en software corporatiu.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Duke_wave_with_shadow.png
+
+  - title: En quin any es va escriure el Manifest Àgil?
+    image: https://upload.wikimedia.org/wikipedia/commons/c/cf/Agile_software_development_release_early_and_often.jpg
+    image_alt: Il·lustració sobre desenvolupament àgil i lliuraments primerencs i freqüents.
+    options:
+      - "1983"
+      - "1992"
+      - "2001"
+      - "2010"
+    correct_answer: 3
+    explanation: |
+      El Manifest Àgil es va escriure l'any 2001.
+      Va posar el focus en persones, col.laboració i adaptació al canvi.
+      És una referència imprescindible per entendre les metodologies modernes de desenvolupament.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Agile_software_development_release_early_and_often.jpg
+
+  - title: En quin any es publica la primera versió de la plataforma .NET de Microsoft?
+    image: https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg
+    image_alt: Logotip de Microsoft .NET.
+    options:
+      - "1992"
+      - "2001"
+      - "2010"
+      - "2019"
+    correct_answer: 2
+    explanation: |
+      Segons aquesta cronologia, la primera versió de .NET és de 2001.
+      Aquesta plataforma va unificar runtime, biblioteques i eines sota un mateix ecosistema.
+      Va ser determinant per al creixement de C# en entorns professionals.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Microsoft_.NET_logo.svg
+
+  - title: En quin any s'introdueix Subversion (SVN)?
+    image: https://upload.wikimedia.org/wikipedia/commons/2/22/Apache_Subversion_logo.svg
+    image_alt: Logotip d'Apache Subversion.
+    options:
+      - "1985"
+      - "1994"
+      - "2003"
+      - "2012"
+    correct_answer: 3
+    explanation: |
+      Subversion apareix el 2003 com a sistema de control de versions centralitzat.
+      Va millorar la gestió de canvis i la traçabilitat en molts equips de software.
+      És una etapa rellevant abans de la dominància dels sistemes distribuïts.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Apache_Subversion_logo.svg
+
+  - title: En quin any es crea Facebook?
+    image: https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg
+    image_alt: Icona blava de Facebook amb la lletra f blanca.
+    options:
+      - "1986"
+      - "1995"
+      - "2004"
+      - "2013"
+    correct_answer: 3
+    explanation: |
+      Facebook es crea el 2004 i obre una nova fase de plataformes socials globals.
+      La seva escala va impulsar reptes d'arquitectura, rendiment i tractament de dades.
+      També va influir en com es dissenyen productes digitals centrats en comunitat.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2021).svg
+
+  - title: En quin any neix YouTube?
+    image: https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg
+    image_alt: Logotip de YouTube amb el botó de reproducció vermell.
+    options:
+      - "1987"
+      - "1996"
+      - "2005"
+      - "2014"
+    correct_answer: 3
+    explanation: |
+      YouTube neix el 2005 i transforma la distribució de vídeo a internet.
+      Va demostrar la viabilitat de plataformes basades en contingut d'usuaris a gran escala.
+      Aquest model va tenir un gran impacte en tecnologia, mitjans i negoci digital.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:YouTube_Logo_2017.svg
+
+  - title: En quin any Linus Torvalds crea Git?
+    image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+    image_alt: Logotip taronja de Git amb una branca representada amb nodes.
+    options:
+      - "1987"
+      - "1996"
+      - "2005"
+      - "2014"
+    correct_answer: 3
+    explanation: |
+      Git es crea el 2005 i introdueix un model distribuït molt eficient per versionar codi.
+      Va facilitar treballar amb branques i integracions de forma ràpida i segura.
+      Per això avui és l'estàndard principal en desenvolupament col.laboratiu.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Git-logo.svg
+
+  - title: En quin any Amazon llança AWS?
+    image: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+    image_alt: Logotip d'Amazon Web Services.
+    options:
+      - "1988"
+      - "1997"
+      - "2006"
+      - "2015"
+    correct_answer: 3
+    explanation: |
+      AWS es llança el 2006 i accelera la consolidació del model de computació al núvol.
+      Va permetre consumir infraestructura sota demanda sense gestionar maquinari propi.
+      Aquesta transició va canviar radicalment costos i velocitat de desplegament.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg
+
+  - title: En quin any Apple presenta l'iPhone?
+    image: https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg
+    image_alt: Il·lustració del primer model d'iPhone.
+    options:
+      - "1989"
+      - "1998"
+      - "2007"
+      - "2016"
+    correct_answer: 3
+    explanation: |
+      L'iPhone es presenta el 2007 i redefineix la categoria de smartphone.
+      Va establir un nou estàndard d'experiència d'usuari i d'ecosistema d'aplicacions.
+      El seu impacte va canviar completament el rumb del desenvolupament mòbil.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:IPhone_1st_Gen.svg
+
+  - title: En quin any Google llança Android 1.0?
+    image: https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg
+    image_alt: Logotip del robot verd d'Android.
+    options:
+      - "1990"
+      - "1999"
+      - "2008"
+      - "2017"
+    correct_answer: 3
+    explanation: |
+      Android 1.0 es llança el 2008 i obre un ecosistema mòbil obert i molt extens.
+      La seva adopció per múltiples fabricants va accelerar la difusió global dels smartphones.
+      Això va consolidar el desenvolupament d'apps com a eix central de la indústria.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Android_robot.svg
+
+  - title: En quin any es crea Node.js?
+    image: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
+    image_alt: Logotip de Node.js amb tipografia verda.
+    options:
+      - "1991"
+      - "2000"
+      - "2009"
+      - "2018"
+    correct_answer: 3
+    explanation: |
+      Node.js es crea el 2009 i porta JavaScript al costat servidor.
+      El seu model no bloquejant va ser especialment potent per aplicacions d'I/O intensiu.
+      També va simplificar la vida dels equips full-stack compartint llenguatge entre client i servidor.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Node.js_logo.svg
+
+  - title: En quin any surt la primera versió estable de Rust, segons aquesta cronologia?
+    image: https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg
+    image_alt: Logotip negre del llenguatge de programació Rust.
+    options:
+      - "2002"
+      - "2011"
+      - "2020"
+      - "2029"
+    correct_answer: 2
+    explanation: |
+      Dins la cronologia del qüestionari, Rust figura el 2011.
+      Rust destaca per combinar rendiment de baix nivell amb seguretat de memòria.
+      És una aposta molt forta en sistemes crítics, infraestructura i eines modernes.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg
+
+  - title: En quin any IBM Watson derrota campions humans a Jeopardy!?
+    image: https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_Watson_w_Jeopardy.jpg
+    image_alt: Imatge d'IBM Watson durant una demostració relacionada amb Jeopardy!.
+    options:
+      - "1993"
+      - "2002"
+      - "2011"
+      - "2020"
+    correct_answer: 3
+    explanation: |
+      Aquesta fita de Watson és del 2011.
+      Va ser una demostració pública del potencial de la IA en llenguatge natural.
+      L'esdeveniment va fer més visible la capacitat de sistemes intel.ligents en tasques complexes.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:IBM_Watson_w_Jeopardy.jpg
+
+  - title: En quin any Docker popularitza els contenidors?
+    image: https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg
+    image_alt: Logotip de Docker amb una balena transportant contenidors.
+    options:
+      - "1995"
+      - "2004"
+      - "2013"
+      - "2022"
+    correct_answer: 3
+    explanation: |
+      Docker es popularitza el 2013 i facilita l'ús de contenidors a gran escala.
+      Va simplificar empaquetar aplicacions amb dependències de manera portable.
+      El seu impacte és enorme en DevOps, CI/CD i desplegament consistent.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Docker_(container_engine)_logo.svg
+
+  - title: En quin any es crea TensorFlow?
+    image: https://upload.wikimedia.org/wikipedia/commons/1/11/TensorFlowLogo.svg
+    image_alt: Logotip de TensorFlow de color taronja.
+    options:
+      - "1997"
+      - "2006"
+      - "2015"
+      - "2024"
+    correct_answer: 3
+    explanation: |
+      TensorFlow es crea el 2015 i impulsa l'adopció de machine learning en productes reals.
+      Va posar eines avançades a l'abast de recerca i indústria.
+      És una de les plataformes clau de la IA moderna.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:TensorFlowLogo.svg
+
+  - title: En quin any es publica Visual Studio Code?
+    image: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+    image_alt: Icona blava de Visual Studio Code.
+    options:
+      - "1997"
+      - "2006"
+      - "2015"
+      - "2024"
+    correct_answer: 3
+    explanation: |
+      Visual Studio Code es publica el 2015 i s'estén molt ràpidament.
+      La combinació de lleugeresa, extensibilitat i bon suport de llenguatges en va fer un estàndard.
+      Avui és una eina central en molts fluxos professionals i educatius.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg
+
+  - title: En quin any AlphaGo derrota Lee Sedol?
+    image: https://upload.wikimedia.org/wikipedia/commons/0/0a/Alphago_logo_Original.svg
+    image_alt: Logotip d'AlphaGo.
+    options:
+      - "1998"
+      - "2007"
+      - "2016"
+      - "2025"
+    correct_answer: 3
+    explanation: |
+      El partit històric d'AlphaGo contra Lee Sedol és del 2016.
+      Va demostrar que la IA podia superar humans experts en un joc de gran complexitat estratègica.
+      Aquesta fita va canviar la percepció global sobre el ritme d'avenç de la IA.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Alphago_logo_Original.svg
+
+  - title: En quin any es publica "Attention Is All You Need"?
+    image: https://upload.wikimedia.org/wikipedia/commons/3/34/Transformer%2C_full_architecture.png
+    image_alt: Diagrama de l'arquitectura completa d'un model Transformer.
+    options:
+      - "1999"
+      - "2008"
+      - "2017"
+      - "2026"
+    correct_answer: 3
+    explanation: |
+      L'article es publica el 2017 i introdueix l'arquitectura Transformer.
+      Aquest enfocament és la base dels models de llenguatge i IA generativa actuals.
+      És una publicació clau per entendre l'estat de l'art dels darrers anys.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png
+
+  - title: En quin any Microsoft adquireix GitHub?
+    image: https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg
+    image_alt: Logotip d'Invertocat de GitHub.
+    options:
+      - "2000"
+      - "2009"
+      - "2018"
+      - "2027"
+    correct_answer: 3
+    explanation: |
+      Microsoft adquireix GitHub el 2018 en una operació molt rellevant per al sector.
+      Va unir una plataforma global de col.laboració amb un actor principal d'eines de desenvolupament.
+      Això va obrir noves integracions i serveis per a comunitats i equips.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:GitHub_Invertocat_Logo.svg
+
+  - title: En quin any es publica GPT-3?
+    options:
+      - "2002"
+      - "2011"
+      - "2020"
+      - "2029"
+    correct_answer: 3
+    explanation: |
+      GPT-3 es publica el 2020 i suposa un salt clar en generació de text.
+      La seva escala va obrir molts casos d'ús nous en assistència i automatització.
+      És una de les fites que impulsen l'era recent de la IA generativa.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:GPT-3_falsehoods.png
+
+  - title: En quin any GitHub presenta GitHub Copilot?
+    image: https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg
+    image_alt: Logotip de GitHub Copilot.
+    options:
+      - "2003"
+      - "2012"
+      - "2021"
+      - "2030"
+    correct_answer: 3
+    explanation: |
+      GitHub Copilot es presenta el 2021 com a assistent de programació basat en IA.
+      Va popularitzar les recomanacions de codi contextuals dins l'editor.
+      És un punt d'inflexió en la integració de la IA en el dia a dia dels desenvolupadors.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:GitHub_Copilot_logo.svg
+
+  - title: En quin any es llança ChatGPT al públic?
+    image: https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg
+    image_alt: Logotip de ChatGPT format per un símbol entrellaçat.
+    options:
+      - "2004"
+      - "2013"
+      - "2022"
+      - "2031"
+    correct_answer: 3
+    explanation: |
+      ChatGPT es llança públicament el 2022 i accelera l'adopció massiva d'assistents conversacionals.
+      Va fer accessibles els grans models de llenguatge a usuaris de tota mena.
+      Des d'aleshores, ha influït fortament en productivitat, educació i desenvolupament.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:ChatGPT-Logo.svg
+
+  - title: En quin any la IA generativa s'integra de manera generalitzada en eines de desenvolupament, cerca i productivitat?
+    image: https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg
+    image_alt: Logotip d'OpenAI com a referència visual de la IA generativa moderna.
+    options:
+      - "2006"
+      - "2015"
+      - "2024"
+      - "2033"
+    correct_answer: 3
+    explanation: |
+      Aquesta adopció generalitzada es situa el 2024 segons la cronologia proposada.
+      A partir d'aquí, la IA deixa de ser un afegit experimental i passa a ser funcionalitat central.
+      És un canvi de paradigma en com treballem amb codi, informació i eines digitals.
+
+      Crèdits Imatge: https://commons.wikimedia.org/wiki/File:OpenAI_Logo.svg
