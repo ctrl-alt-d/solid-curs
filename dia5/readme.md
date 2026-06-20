@@ -1,4 +1,4 @@
-# Documents
+# Documents
 
 * [SOLID: LSP i ISP](./H-1_SOLID_LSP_ISP.md)
 * Pràctiva MVC i patró repositori:

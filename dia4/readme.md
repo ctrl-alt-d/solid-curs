@@ -1,4 +1,4 @@
-# Documents
+# Documents
 
 * [Els dobles de prova](./F-1_Dobles_de_proves.md)
 * Kata RaigsX amb dobles de prova:

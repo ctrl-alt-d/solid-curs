@@ -1,4 +1,4 @@
-# Documents
+# Documents
 
 * [SOLID DIP (Principi d'inversió de dependències)](./C-4_DIP.md)
 * [IoC (Inversion of Control)](./C-4_DIP.md)
